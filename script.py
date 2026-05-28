@@ -13,7 +13,7 @@ genai.configure(api_key=os.environ.get("GEMINI_API_KEY"))
 MODEL_NAME = "gemini-2.5-flash"
 model = genai.GenerativeModel(MODEL_NAME)
 
-IMAGE_BASE_DIR = r"C:\Users\lenovo\298_proj\v1.0-mini"
+IMAGE_BASE_DIR = r"E:\data\v1.0-trainval01_blobs"
 
 prompt_baseline = """
 You are an autonomous driving system. Look at the provided image and directly determine the safe final driving command.
